@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "Ultimate_Academic_Calculator.html", "use": "@vercel/static" }
+    { "src": "Index.html", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/Ultimate_Academic_Calculator.html" }
+    { "src": "/(.*)", "dest": "/Index.html" }
   ]
 }
